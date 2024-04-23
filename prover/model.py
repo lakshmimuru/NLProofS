@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 from common import *
 from verifier.model import EntailmentClassifier
 from prover.proof import ProofStep, Proof, InvalidProofStep
