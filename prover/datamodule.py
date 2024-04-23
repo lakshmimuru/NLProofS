@@ -1,6 +1,9 @@
 """
 Dataloading for EntailmentBank and RuleTaker.
 """
+import sys
+sys.path.append('..')
+
 from copy import deepcopy
 from common import *
 from prover.proof import Proof, InvalidProofStep
