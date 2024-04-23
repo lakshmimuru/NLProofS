@@ -1,6 +1,9 @@
 """
 Proof steps and proof trees.
 """
+import sys
+sys.path.append('..')
+
 from common import *
 import itertools
 
