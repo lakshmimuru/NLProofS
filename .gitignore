@@ -1,3 +1,4 @@
+models/
 data/
 lightning_logs/
 sbatch_*.sh
