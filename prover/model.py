@@ -144,7 +144,7 @@ class EntailmentWriter(pl.LightningModule):
         )
         if (
             model_name.startswith("t5-")
-            or model_name.startswith("google/t5-v1_1-")
+            or model_name.startswith("google/t5-")
             or model_name.startswith("google/byt5-")
         ):
             self.seq2seq = T5ForConditionalGeneration.from_pretrained(model_name)
