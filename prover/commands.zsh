@@ -10,4 +10,4 @@ python main.py test --config cli_task2_stepwise_t5-large.yaml --ckpt_path ../mod
 # Test the single-shot prover on Task 1 of EntailmentBank.
 python main.py test --config cli_task1_single_shot_t5-large.yaml --ckpt_path ../models/prover-bank-task1-single.ckpt | tee ../output/5_cli_task1_single_shot_t5-large.test
 # Test the single-shot prover (trained on Task 2) on Task 3 of EntailmentBank.
-python main.py test --confing cli_task2_single_shot_t5-large.yaml --ckpt_path ../models/prover-bank-task2-single.ckpt --data.path_test ../data/entailment_trees_emnlp2021_data_v3/dataset/task_3/test.jsonl | tee ../output/6_cli_task2_single_shot_t5-large.test
+python main.py test --config cli_task2_single_shot_t5-large.yaml --ckpt_path ../models/prover-bank-task2-single.ckpt --data.path_test ../data/entailment_trees_emnlp2021_data_v3/dataset/task_3/test.jsonl | tee ../output/6_cli_task2_single_shot_t5-large.test
