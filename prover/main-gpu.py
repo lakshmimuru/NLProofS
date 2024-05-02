@@ -16,9 +16,7 @@ class CLI(LightningCLI):
 
 
 def main() -> None:
-    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True, trainer_defaults={
-        "accelerator": "cpu"
-    })
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
     print("Configuration: \n", cli.config)
 
 
