@@ -16,7 +16,7 @@ model:
   lr: 5e-5
   warmup_steps: 1000
   model_name: t5-large
-  num_beams: 10
+  num_beams: 1
   topk: 10
   verifier_ckpt: null
   verifier_weight: 0.0
@@ -24,8 +24,8 @@ model:
   oracle_prover: false
   oracle_verifier: false
   diverse_beam_search: false 
-  diversity_penalty: 5.0
-  num_beam_groups: 5
+  diversity_penalty: null
+  num_beam_groups: null
 data:
   dataset: entailmentbank
   sample_goal: intermediates # hypothesis | intermediates

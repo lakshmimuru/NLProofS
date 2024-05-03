@@ -8,12 +8,12 @@
 #SBATCH --gres=gpu:1                        # number of gpus per node
 #SBATCH --time=24:00:00                     # total run time limit (HH:MM:SS)
 #SBATCH --mail-type=all                     # send email
+#SBATCH --partition=mig                     # partition (queue)
 #SBATCH --mail-user=lm2472@princeton.edu
 #SBATCH -o ../slurm_outputs/re.out
 #SBATCH -e ../slurm_errors/re_error.out
 
-module purge
-module load anaconda3/2024.2
+
 conda activate nlproofs
 
 ./commands.zsh
