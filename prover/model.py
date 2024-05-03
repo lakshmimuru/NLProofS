@@ -157,7 +157,7 @@ class EntailmentWriter(pl.LightningModule):
             raise NotImplementedError
 
         self.diverse_beam_search = diverse_beam_search
-        self.num_groups_beam_search = num_beam_groups 
+        self.num_beam_groups = num_beam_groups 
         self.diversity_penalty = diversity_penalty
 
     def forward(  # type: ignore
