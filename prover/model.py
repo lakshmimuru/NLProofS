@@ -115,6 +115,9 @@ class EntailmentWriter(pl.LightningModule):
         max_input_len: int,
         proof_search: bool,
         verifier_weight: float,
+        diverse_beam_search: bool,
+        num_beam_groups: int,
+        diversity_penalty: float,
         verifier_ckpt: Optional[str] = None,
         oracle_prover: Optional[bool] = False,
         oracle_verifier: Optional[bool] = False,
@@ -152,6 +155,10 @@ class EntailmentWriter(pl.LightningModule):
             self.seq2seq = BartForConditionalGeneration.from_pretrained(model_name)
         else:
             raise NotImplementedError
+
+        self.diverse_beam_search = diverse_beam_search
+        self.num_groups_beam_search = num_beam_groups 
+        self.diversity_penalty = diversity_penalty
 
     def forward(  # type: ignore
         self,
@@ -246,16 +253,32 @@ class EntailmentWriter(pl.LightningModule):
             return_tensors="pt",
         )
 
-        output = self.seq2seq.generate(
-            input_ids=input.input_ids.to(self.device, non_blocking=True),
-            attention_mask=input.attention_mask.to(self.device, non_blocking=True),
-            max_length=self.trainer.datamodule.max_output_len,  # type: ignore
-            num_beams=self.num_beams,
-            num_return_sequences=self.topk,
-            early_stopping=True,
-            output_scores=True,
-            return_dict_in_generate=True,
-        )
+        if self.diverse_beam_search:
+            output = self.seq2seq.generate(
+                input_ids=input.input_ids.to(self.device, non_blocking=True),
+                attention_mask=input.attention_mask.to(self.device, non_blocking=True),
+                max_length=self.trainer.datamodule.max_output_len,  # type: ignore
+                num_beams=self.num_beams,
+                num_return_sequences=min(self.topk, self.num_beams),
+                early_stopping=True,
+                output_scores=True,
+                return_dict_in_generate=True,
+                num_beam_groups=self.num_beam_groups,
+                diversity_penalty=self.diversity_penalty,
+            )
+        else:
+
+            output = self.seq2seq.generate(
+                input_ids=input.input_ids.to(self.device, non_blocking=True),
+                attention_mask=input.attention_mask.to(self.device, non_blocking=True),
+                max_length=self.trainer.datamodule.max_output_len,  # type: ignore
+                num_beams=self.num_beams,
+                num_return_sequences=min(self.topk, self.num_beams),
+                early_stopping=True,
+                output_scores=True,
+                return_dict_in_generate=True,
+            )
+
         output_text = self.tokenizer.batch_decode(
             output.sequences, skip_special_tokens=True
         )
