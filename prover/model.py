@@ -135,6 +135,9 @@ class EntailmentWriter(pl.LightningModule):
         self.proof_search = proof_search
         self.oracle_prover = oracle_prover
         self.oracle_verifier = oracle_verifier
+        self.diverse_beam_search = diverse_beam_search
+        self.num_beam_groups = num_beam_groups 
+        self.diversity_penalty = diversity_penalty
         if stepwise and verifier_weight > 0:
             assert verifier_weight <= 1.0
             assert verifier_ckpt is not None
@@ -156,9 +159,7 @@ class EntailmentWriter(pl.LightningModule):
         else:
             raise NotImplementedError
 
-        self.diverse_beam_search = diverse_beam_search
-        self.num_beam_groups = num_beam_groups 
-        self.diversity_penalty = diversity_penalty
+        
 
     def forward(  # type: ignore
         self,
