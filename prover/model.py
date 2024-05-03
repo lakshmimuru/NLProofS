@@ -259,7 +259,7 @@ class EntailmentWriter(pl.LightningModule):
                 attention_mask=input.attention_mask.to(self.device, non_blocking=True),
                 max_length=self.trainer.datamodule.max_output_len,  # type: ignore
                 num_beams=self.num_beams,
-                num_return_sequences=self.topk,
+                num_return_sequences=min(self.topk, self.num_beams),
                 early_stopping=True,
                 output_scores=True,
                 return_dict_in_generate=True,
@@ -273,7 +273,7 @@ class EntailmentWriter(pl.LightningModule):
                 attention_mask=input.attention_mask.to(self.device, non_blocking=True),
                 max_length=self.trainer.datamodule.max_output_len,  # type: ignore
                 num_beams=self.num_beams,
-                num_return_sequences=self.topk,
+                num_return_sequences=min(self.topk, self.num_beams),
                 early_stopping=True,
                 output_scores=True,
                 return_dict_in_generate=True,
