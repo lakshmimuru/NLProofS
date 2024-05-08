@@ -1,3 +1,9 @@
+# COS484: Generating Natural Language Proofs with Verifier-Guided Search: Traditional and Diverse Beam Search
+## By Ian Nicolae, Lakshmi Murugappan, Sarah Bock
+
+This repository contains the source code for our final project for COS484, which is based off of the paper [Generating Natural Language Proofs with Verifier-Guided Search](https://arxiv.org/abs/2205.12443).
+All code (including the remainder of the ReadMe) is adopted from the original repository provided by the paper authors. The original repository can be found [here](https://github.com/princeton-nlp/NLProofS).
+
 # Generating Natural Language Proofs with Verifier-Guided Search
 
 ![Task](images/nlproofs.jpg)
