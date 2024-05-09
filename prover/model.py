@@ -118,7 +118,10 @@ class EntailmentWriter(pl.LightningModule):
         max_input_len: int,
         proof_search: bool,
         verifier_weight: float,
+<<<<<<< HEAD
         greedy_search: bool,
+=======
+>>>>>>> dcb5de3562a308db8ccf76a7c84735aa2f6f9010
         diverse_beam_search: bool,
         num_beam_groups: int,
         diversity_penalty: float,
@@ -164,6 +167,12 @@ class EntailmentWriter(pl.LightningModule):
         else:
             raise NotImplementedError
 
+<<<<<<< HEAD
+=======
+        self.diverse_beam_search = diverse_beam_search
+        self.num_beam_groups = num_beam_groups 
+        self.diversity_penalty = diversity_penalty
+>>>>>>> dcb5de3562a308db8ccf76a7c84735aa2f6f9010
 
     def forward(  # type: ignore
         self,
@@ -258,12 +267,17 @@ class EntailmentWriter(pl.LightningModule):
             return_tensors="pt",
         )
 
+<<<<<<< HEAD
         if self.greedy_search:
+=======
+        if self.diverse_beam_search:
+>>>>>>> dcb5de3562a308db8ccf76a7c84735aa2f6f9010
             output = self.seq2seq.generate(
                 input_ids=input.input_ids.to(self.device, non_blocking=True),
                 attention_mask=input.attention_mask.to(self.device, non_blocking=True),
                 max_length=self.trainer.datamodule.max_output_len,  # type: ignore
                 num_beams=self.num_beams,
+<<<<<<< HEAD
                 early_stopping=True,
                 output_scores=True,
                 return_dict_in_generate=True,
@@ -283,12 +297,27 @@ class EntailmentWriter(pl.LightningModule):
                 return_dict_in_generate=True,
             )
         else:
+=======
+                num_return_sequences=min(self.topk, self.num_beams),
+                early_stopping=True,
+                output_scores=True,
+                return_dict_in_generate=True,
+                num_beam_groups=self.num_beam_groups,
+                diversity_penalty=self.diversity_penalty,
+            )
+        else:
+
+>>>>>>> dcb5de3562a308db8ccf76a7c84735aa2f6f9010
             output = self.seq2seq.generate(
                 input_ids=input.input_ids.to(self.device, non_blocking=True),
                 attention_mask=input.attention_mask.to(self.device, non_blocking=True),
                 max_length=self.trainer.datamodule.max_output_len,  # type: ignore
                 num_beams=self.num_beams,
+<<<<<<< HEAD
                 num_return_sequences=min(self.topk,self.num_beams),
+=======
+                num_return_sequences=min(self.topk, self.num_beams),
+>>>>>>> dcb5de3562a308db8ccf76a7c84735aa2f6f9010
                 early_stopping=True,
                 output_scores=True,
                 return_dict_in_generate=True,

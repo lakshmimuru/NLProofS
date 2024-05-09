@@ -23,7 +23,10 @@ model:
   proof_search: false
   oracle_prover: false
   oracle_verifier: false
+<<<<<<< HEAD
   greedy_search: false
+=======
+>>>>>>> dcb5de3562a308db8ccf76a7c84735aa2f6f9010
   diverse_beam_search: false 
   diversity_penalty: 5.0
   num_beam_groups: 5
