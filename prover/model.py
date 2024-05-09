@@ -19,6 +19,9 @@ from transformers import (
 )
 from prover.evaluate import evaluate_entailmentbank, evaluate_ruletaker
 
+import os
+os.environ['CURL_CA_BUNDLE'] = ''
+
 
 # Some handcrafted heuristics for constraining the predicted proof steps.
 # They often make the proof graph less cluttered but do not improve the final performance.
@@ -115,6 +118,7 @@ class EntailmentWriter(pl.LightningModule):
         max_input_len: int,
         proof_search: bool,
         verifier_weight: float,
+        greedy_search: bool,
         diverse_beam_search: bool,
         num_beam_groups: int,
         diversity_penalty: float,
@@ -135,11 +139,15 @@ class EntailmentWriter(pl.LightningModule):
         self.proof_search = proof_search
         self.oracle_prover = oracle_prover
         self.oracle_verifier = oracle_verifier
+        self.greedy_search = greedy_search
+        self.diverse_beam_search = diverse_beam_search
+        self.num_beam_groups = num_beam_groups 
+        self.diversity_penalty = diversity_penalty
         if stepwise and verifier_weight > 0:
             assert verifier_weight <= 1.0
             assert verifier_ckpt is not None
             self.verifiers = [
-                EntailmentClassifier.load_from_checkpoint(verifier_ckpt)
+                EntailmentClassifier.load_from_checkpoint(verifier_ckpt, strict=False)
             ]  # Avoid making the verifier a submodule.
 
         self.tokenizer = AutoTokenizer.from_pretrained(
@@ -150,15 +158,12 @@ class EntailmentWriter(pl.LightningModule):
             or model_name.startswith("google/t5-")
             or model_name.startswith("google/byt5-")
         ):
-            self.seq2seq = T5ForConditionalGeneration.from_pretrained(model_name)
+            self.seq2seq = T5ForConditionalGeneration.from_pretrained(model_name, resume_download=True)
         elif model_name.startswith("facebook/bart-"):
-            self.seq2seq = BartForConditionalGeneration.from_pretrained(model_name)
+            self.seq2seq = BartForConditionalGeneration.from_pretrained(model_name, resume_download=True)
         else:
             raise NotImplementedError
 
-        self.diverse_beam_search = diverse_beam_search
-        self.num_groups_beam_search = num_beam_groups 
-        self.diversity_penalty = diversity_penalty
 
     def forward(  # type: ignore
         self,
@@ -253,27 +258,37 @@ class EntailmentWriter(pl.LightningModule):
             return_tensors="pt",
         )
 
-        if self.diverse_beam_search:
+        if self.greedy_search:
             output = self.seq2seq.generate(
                 input_ids=input.input_ids.to(self.device, non_blocking=True),
                 attention_mask=input.attention_mask.to(self.device, non_blocking=True),
                 max_length=self.trainer.datamodule.max_output_len,  # type: ignore
                 num_beams=self.num_beams,
-                num_return_sequences=self.topk,
                 early_stopping=True,
                 output_scores=True,
                 return_dict_in_generate=True,
-                num_beam_groups=self.num_beam_groups,
-                diversity_penalty=self.diversity_penalty,
             )
-        else:
 
+        elif self.diverse_beam_search:
             output = self.seq2seq.generate(
                 input_ids=input.input_ids.to(self.device, non_blocking=True),
                 attention_mask=input.attention_mask.to(self.device, non_blocking=True),
                 max_length=self.trainer.datamodule.max_output_len,  # type: ignore
                 num_beams=self.num_beams,
-                num_return_sequences=self.topk,
+                num_return_sequences=min(self.topk,self.num_beams),
+                num_beam_groups=self.num_beam_groups,
+                diversity_penalty=self.diversity_penalty,
+                early_stopping=True,
+                output_scores=True,
+                return_dict_in_generate=True,
+            )
+        else:
+            output = self.seq2seq.generate(
+                input_ids=input.input_ids.to(self.device, non_blocking=True),
+                attention_mask=input.attention_mask.to(self.device, non_blocking=True),
+                max_length=self.trainer.datamodule.max_output_len,  # type: ignore
+                num_beams=self.num_beams,
+                num_return_sequences=min(self.topk,self.num_beams),
                 early_stopping=True,
                 output_scores=True,
                 return_dict_in_generate=True,

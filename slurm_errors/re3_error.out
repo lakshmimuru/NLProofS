@@ -1,0 +1,481 @@
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+usage: main-gpu.py [options] validate [-h] [-c CONFIG]
+                                      [--print_config [=flags]]
+                                      [--seed_everything SEED_EVERYTHING]
+                                      [--trainer CONFIG]
+                                      [--trainer.logger.help CLASS_PATH_OR_NAME]
+                                      [--trainer.logger LOGGER]
+                                      [--trainer.checkpoint_callback {true,false,null}]
+                                      [--trainer.enable_checkpointing {true,false}]
+                                      [--trainer.callbacks.help CLASS_PATH_OR_NAME]
+                                      [--trainer.callbacks CALLBACKS]
+                                      [--trainer.default_root_dir DEFAULT_ROOT_DIR]
+                                      [--trainer.gradient_clip_val GRADIENT_CLIP_VAL]
+                                      [--trainer.gradient_clip_algorithm GRADIENT_CLIP_ALGORITHM]
+                                      [--trainer.process_position PROCESS_POSITION]
+                                      [--trainer.num_nodes NUM_NODES]
+                                      [--trainer.num_processes NUM_PROCESSES]
+                                      [--trainer.devices DEVICES]
+                                      [--trainer.gpus GPUS]
+                                      [--trainer.auto_select_gpus {true,false}]
+                                      [--trainer.tpu_cores TPU_CORES]
+                                      [--trainer.ipus IPUS]
+                                      [--trainer.log_gpu_memory LOG_GPU_MEMORY]
+                                      [--trainer.progress_bar_refresh_rate PROGRESS_BAR_REFRESH_RATE]
+                                      [--trainer.enable_progress_bar {true,false}]
+                                      [--trainer.overfit_batches OVERFIT_BATCHES]
+                                      [--trainer.track_grad_norm TRACK_GRAD_NORM]
+                                      [--trainer.check_val_every_n_epoch CHECK_VAL_EVERY_N_EPOCH]
+                                      [--trainer.fast_dev_run FAST_DEV_RUN]
+                                      [--trainer.accumulate_grad_batches ACCUMULATE_GRAD_BATCHES]
+                                      [--trainer.max_epochs MAX_EPOCHS]
+                                      [--trainer.min_epochs MIN_EPOCHS]
+                                      [--trainer.max_steps MAX_STEPS]
+                                      [--trainer.min_steps MIN_STEPS]
+                                      [--trainer.max_time MAX_TIME]
+                                      [--trainer.limit_train_batches LIMIT_TRAIN_BATCHES]
+                                      [--trainer.limit_val_batches LIMIT_VAL_BATCHES]
+                                      [--trainer.limit_test_batches LIMIT_TEST_BATCHES]
+                                      [--trainer.limit_predict_batches LIMIT_PREDICT_BATCHES]
+                                      [--trainer.val_check_interval VAL_CHECK_INTERVAL]
+                                      [--trainer.flush_logs_every_n_steps FLUSH_LOGS_EVERY_N_STEPS]
+                                      [--trainer.log_every_n_steps LOG_EVERY_N_STEPS]
+                                      [--trainer.accelerator.help CLASS_PATH_OR_NAME]
+                                      [--trainer.accelerator ACCELERATOR]
+                                      [--trainer.strategy.help CLASS_PATH_OR_NAME]
+                                      [--trainer.strategy STRATEGY]
+                                      [--trainer.sync_batchnorm {true,false}]
+                                      [--trainer.precision PRECISION]
+                                      [--trainer.enable_model_summary {true,false}]
+                                      [--trainer.weights_summary WEIGHTS_SUMMARY]
+                                      [--trainer.weights_save_path WEIGHTS_SAVE_PATH]
+                                      [--trainer.num_sanity_val_steps NUM_SANITY_VAL_STEPS]
+                                      [--trainer.resume_from_checkpoint RESUME_FROM_CHECKPOINT]
+                                      [--trainer.profiler.help CLASS_PATH_OR_NAME]
+                                      [--trainer.profiler PROFILER]
+                                      [--trainer.benchmark {true,false,null}]
+                                      [--trainer.deterministic {true,false}]
+                                      [--trainer.reload_dataloaders_every_n_epochs RELOAD_DATALOADERS_EVERY_N_EPOCHS]
+                                      [--trainer.auto_lr_find AUTO_LR_FIND]
+                                      [--trainer.replace_sampler_ddp {true,false}]
+                                      [--trainer.detect_anomaly {true,false}]
+                                      [--trainer.auto_scale_batch_size AUTO_SCALE_BATCH_SIZE]
+                                      [--trainer.prepare_data_per_node {true,false,null}]
+                                      [--trainer.plugins.help CLASS_PATH_OR_NAME]
+                                      [--trainer.plugins PLUGINS]
+                                      [--trainer.amp_backend AMP_BACKEND]
+                                      [--trainer.amp_level AMP_LEVEL]
+                                      [--trainer.move_metrics_to_cpu {true,false}]
+                                      [--trainer.multiple_trainloader_mode MULTIPLE_TRAINLOADER_MODE]
+                                      [--trainer.stochastic_weight_avg {true,false}]
+                                      [--trainer.terminate_on_nan {true,false,null}]
+                                      [--model CONFIG]
+                                      --model.stepwise {true,false}
+                                      --model.max_num_steps MAX_NUM_STEPS
+                                      --model.model_name MODEL_NAME
+                                      --model.lr LR
+                                      --model.warmup_steps WARMUP_STEPS
+                                      --model.num_beams NUM_BEAMS
+                                      --model.topk TOPK
+                                      --model.proof_search {true,false}
+                                      --model.verifier_weight VERIFIER_WEIGHT
+                                      --model.greedy_search {true,false}
+                                      --model.diverse_beam_search {true,false}
+                                      --model.num_beam_groups NUM_BEAM_GROUPS
+                                      --model.diversity_penalty DIVERSITY_PENALTY
+                                      [--model.verifier_ckpt VERIFIER_CKPT]
+                                      [--model.oracle_prover {true,false,null}]
+                                      [--model.oracle_verifier {true,false,null}]
+                                      [--data CONFIG] --data.dataset DATASET
+                                      --data.sample_goal SAMPLE_GOAL
+                                      --data.max_input_len MAX_INPUT_LEN
+                                      --data.max_output_len MAX_OUTPUT_LEN
+                                      --data.batch_size BATCH_SIZE
+                                      --data.num_workers NUM_WORKERS
+                                      --data.path_train PATH_TRAIN
+                                      --data.path_val PATH_VAL
+                                      --data.path_test PATH_TEST
+                                      --data.subtree_proved_prob SUBTREE_PROVED_PROB
+                                      --data.subtree_proved_all_or_none {true,false}
+                                      [--optimizer.help CLASS_PATH_OR_NAME]
+                                      [--optimizer CONFIG | CLASS_PATH_OR_NAME | .INIT_ARG_NAME VALUE]
+                                      [--lr_scheduler.help CLASS_PATH_OR_NAME]
+                                      [--lr_scheduler CONFIG | CLASS_PATH_OR_NAME | .INIT_ARG_NAME VALUE]
+                                      [--ckpt_path CKPT_PATH]
+                                      [--verbose {true,false}]
+error: Unrecognized arguments: ----model.num_beams 2
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3979.07it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3705.67it/s]
+./commands_3.zsh: line 8: Validate: command not found
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3795.25it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3743.77it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3638.78it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+usage: main-gpu.py [options] validate [-h] [-c CONFIG]
+                                      [--print_config [=flags]]
+                                      [--seed_everything SEED_EVERYTHING]
+                                      [--trainer CONFIG]
+                                      [--trainer.logger.help CLASS_PATH_OR_NAME]
+                                      [--trainer.logger LOGGER]
+                                      [--trainer.checkpoint_callback {true,false,null}]
+                                      [--trainer.enable_checkpointing {true,false}]
+                                      [--trainer.callbacks.help CLASS_PATH_OR_NAME]
+                                      [--trainer.callbacks CALLBACKS]
+                                      [--trainer.default_root_dir DEFAULT_ROOT_DIR]
+                                      [--trainer.gradient_clip_val GRADIENT_CLIP_VAL]
+                                      [--trainer.gradient_clip_algorithm GRADIENT_CLIP_ALGORITHM]
+                                      [--trainer.process_position PROCESS_POSITION]
+                                      [--trainer.num_nodes NUM_NODES]
+                                      [--trainer.num_processes NUM_PROCESSES]
+                                      [--trainer.devices DEVICES]
+                                      [--trainer.gpus GPUS]
+                                      [--trainer.auto_select_gpus {true,false}]
+                                      [--trainer.tpu_cores TPU_CORES]
+                                      [--trainer.ipus IPUS]
+                                      [--trainer.log_gpu_memory LOG_GPU_MEMORY]
+                                      [--trainer.progress_bar_refresh_rate PROGRESS_BAR_REFRESH_RATE]
+                                      [--trainer.enable_progress_bar {true,false}]
+                                      [--trainer.overfit_batches OVERFIT_BATCHES]
+                                      [--trainer.track_grad_norm TRACK_GRAD_NORM]
+                                      [--trainer.check_val_every_n_epoch CHECK_VAL_EVERY_N_EPOCH]
+                                      [--trainer.fast_dev_run FAST_DEV_RUN]
+                                      [--trainer.accumulate_grad_batches ACCUMULATE_GRAD_BATCHES]
+                                      [--trainer.max_epochs MAX_EPOCHS]
+                                      [--trainer.min_epochs MIN_EPOCHS]
+                                      [--trainer.max_steps MAX_STEPS]
+                                      [--trainer.min_steps MIN_STEPS]
+                                      [--trainer.max_time MAX_TIME]
+                                      [--trainer.limit_train_batches LIMIT_TRAIN_BATCHES]
+                                      [--trainer.limit_val_batches LIMIT_VAL_BATCHES]
+                                      [--trainer.limit_test_batches LIMIT_TEST_BATCHES]
+                                      [--trainer.limit_predict_batches LIMIT_PREDICT_BATCHES]
+                                      [--trainer.val_check_interval VAL_CHECK_INTERVAL]
+                                      [--trainer.flush_logs_every_n_steps FLUSH_LOGS_EVERY_N_STEPS]
+                                      [--trainer.log_every_n_steps LOG_EVERY_N_STEPS]
+                                      [--trainer.accelerator.help CLASS_PATH_OR_NAME]
+                                      [--trainer.accelerator ACCELERATOR]
+                                      [--trainer.strategy.help CLASS_PATH_OR_NAME]
+                                      [--trainer.strategy STRATEGY]
+                                      [--trainer.sync_batchnorm {true,false}]
+                                      [--trainer.precision PRECISION]
+                                      [--trainer.enable_model_summary {true,false}]
+                                      [--trainer.weights_summary WEIGHTS_SUMMARY]
+                                      [--trainer.weights_save_path WEIGHTS_SAVE_PATH]
+                                      [--trainer.num_sanity_val_steps NUM_SANITY_VAL_STEPS]
+                                      [--trainer.resume_from_checkpoint RESUME_FROM_CHECKPOINT]
+                                      [--trainer.profiler.help CLASS_PATH_OR_NAME]
+                                      [--trainer.profiler PROFILER]
+                                      [--trainer.benchmark {true,false,null}]
+                                      [--trainer.deterministic {true,false}]
+                                      [--trainer.reload_dataloaders_every_n_epochs RELOAD_DATALOADERS_EVERY_N_EPOCHS]
+                                      [--trainer.auto_lr_find AUTO_LR_FIND]
+                                      [--trainer.replace_sampler_ddp {true,false}]
+                                      [--trainer.detect_anomaly {true,false}]
+                                      [--trainer.auto_scale_batch_size AUTO_SCALE_BATCH_SIZE]
+                                      [--trainer.prepare_data_per_node {true,false,null}]
+                                      [--trainer.plugins.help CLASS_PATH_OR_NAME]
+                                      [--trainer.plugins PLUGINS]
+                                      [--trainer.amp_backend AMP_BACKEND]
+                                      [--trainer.amp_level AMP_LEVEL]
+                                      [--trainer.move_metrics_to_cpu {true,false}]
+                                      [--trainer.multiple_trainloader_mode MULTIPLE_TRAINLOADER_MODE]
+                                      [--trainer.stochastic_weight_avg {true,false}]
+                                      [--trainer.terminate_on_nan {true,false,null}]
+                                      [--model CONFIG]
+                                      --model.stepwise {true,false}
+                                      --model.max_num_steps MAX_NUM_STEPS
+                                      --model.model_name MODEL_NAME
+                                      --model.lr LR
+                                      --model.warmup_steps WARMUP_STEPS
+                                      --model.num_beams NUM_BEAMS
+                                      --model.topk TOPK
+                                      --model.proof_search {true,false}
+                                      --model.verifier_weight VERIFIER_WEIGHT
+                                      --model.greedy_search {true,false}
+                                      --model.diverse_beam_search {true,false}
+                                      --model.num_beam_groups NUM_BEAM_GROUPS
+                                      --model.diversity_penalty DIVERSITY_PENALTY
+                                      [--model.verifier_ckpt VERIFIER_CKPT]
+                                      [--model.oracle_prover {true,false,null}]
+                                      [--model.oracle_verifier {true,false,null}]
+                                      [--data CONFIG] --data.dataset DATASET
+                                      --data.sample_goal SAMPLE_GOAL
+                                      --data.max_input_len MAX_INPUT_LEN
+                                      --data.max_output_len MAX_OUTPUT_LEN
+                                      --data.batch_size BATCH_SIZE
+                                      --data.num_workers NUM_WORKERS
+                                      --data.path_train PATH_TRAIN
+                                      --data.path_val PATH_VAL
+                                      --data.path_test PATH_TEST
+                                      --data.subtree_proved_prob SUBTREE_PROVED_PROB
+                                      --data.subtree_proved_all_or_none {true,false}
+                                      [--optimizer.help CLASS_PATH_OR_NAME]
+                                      [--optimizer CONFIG | CLASS_PATH_OR_NAME | .INIT_ARG_NAME VALUE]
+                                      [--lr_scheduler.help CLASS_PATH_OR_NAME]
+                                      [--lr_scheduler CONFIG | CLASS_PATH_OR_NAME | .INIT_ARG_NAME VALUE]
+                                      [--ckpt_path CKPT_PATH]
+                                      [--verbose {true,false}]
+error: Unrecognized arguments: ----model.num_beams 6
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3613.65it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3718.34it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3414.31it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3756.03it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3572.17it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3754.22it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3606.75it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3440.25it/s]

@@ -1,23 +1,860 @@
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
 
-EnvironmentNameNotFound: Could not find conda environment: nlproofs
-You can list all discoverable environments with `conda info --envs`.
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3498.32it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
 
-
+  0%|          | 0/187 [00:00<?, ?it/s][A100%|██████████| 187/187 [00:00<00:00, 3931.68it/s]
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
 Traceback (most recent call last):
-  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 4, in <module>
-    from common import *
-  File "/scratch/gpfs/lm2472/NLProofS/prover/../common.py", line 5, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
 Traceback (most recent call last):
-  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 4, in <module>
-    from common import *
-  File "/scratch/gpfs/lm2472/NLProofS/prover/../common.py", line 5, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
 Traceback (most recent call last):
-  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 4, in <module>
-    from common import *
-  File "/scratch/gpfs/lm2472/NLProofS/prover/../common.py", line 5, in <module>
-    import torch
-ModuleNotFoundError: No module named 'torch'
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.weight', 'roberta.pooler.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/ete3-3.1.2-py3.7.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+Global seed set to 1
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/huggingface_hub-0.23.0-py3.8.egg/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+Some weights of RobertaModel were not initialized from the model checkpoint at roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/core/saving.py:217: UserWarning: Found keys that are not in the model state dict but in the checkpoint: ['encoder.embeddings.position_ids']
+  rank_zero_warn(
+Multiprocessing is handled by SLURM.
+GPU available: True, used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+Restoring states from the checkpoint path at ../models/prover-bank-task2.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Loaded model weights from checkpoint at ../models/prover-bank-task2.ckpt
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/utils/data/dataloader.py:487: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:240: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 48 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Traceback (most recent call last):
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 24, in <module>
+    main()
+  File "/scratch/gpfs/lm2472/NLProofS/prover/main-gpu.py", line 19, in main
+    cli = CLI(EntailmentWriter, ProofDataModule, save_config_overwrite=True)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 566, in __init__
+    self._run_subcommand(self.subcommand)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/utilities/cli.py", line 837, in _run_subcommand
+    fn(**fn_kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 848, in validate
+    return self._call_and_handle_interrupt(self._validate_impl, model, dataloaders, ckpt_path, verbose, datamodule)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 721, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 895, in _validate_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1234, in _run
+    results = self._run_stage()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1318, in _run_stage
+    return self._run_evaluate()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1363, in _run_evaluate
+    eval_loop_results = self._evaluation_loop.run()
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/dataloader/evaluation_loop.py", line 154, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/base.py", line 204, in run
+    self.advance(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 127, in advance
+    output = self._evaluation_step(**kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/loops/epoch/evaluation_epoch_loop.py", line 222, in _evaluation_step
+    output = self.trainer._call_strategy_hook("validation_step", *kwargs.values())
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/trainer/trainer.py", line 1763, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/pytorch_lightning/strategies/strategy.py", line 344, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 618, in validation_step
+    return self.val_test_step("val", batch, batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 631, in val_test_step
+    proof_pred, score = self.generate_stepwise_proof(batch["proof"], batch_idx)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 232, in generate_stepwise_proof
+    proof_pred, step_scores = self.generate_greedy_proofs(proof_gt)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 334, in generate_greedy_proofs
+    output_text, output_scores = self.generate_proof_step(input_text)
+  File "/scratch/gpfs/lm2472/NLProofS/prover/../prover/model.py", line 282, in generate_proof_step
+    num_beam_groups=self.num_beam_groups,
+  File "/home/lm2472/.conda/envs/nlproofs/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'EntailmentWriter' object has no attribute 'num_beam_groups'

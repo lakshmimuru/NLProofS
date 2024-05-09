@@ -1,0 +1,130 @@
+187 proofs loaded. 0 invalid ones removed.
+Validation: 0it [00:00, ?it/s]Validation:   0%|          | 0/94 [00:00<?, ?it/s]Validation DataLoader 0:   0%|          | 0/94 [00:00<?, ?it/s]Validation DataLoader 0:   1%|          | 1/94 [00:09<14:14,  9.19s/it]Validation DataLoader 0:   1%|          | 1/94 [00:09<14:14,  9.19s/it]Validation DataLoader 0:   2%|▏         | 2/94 [00:13<09:20,  6.09s/it]Validation DataLoader 0:   2%|▏         | 2/94 [00:13<09:20,  6.09s/it]Validation DataLoader 0:   3%|▎         | 3/94 [00:18<08:33,  5.64s/it]Validation DataLoader 0:   3%|▎         | 3/94 [00:18<08:33,  5.64s/it]Validation DataLoader 0:   4%|▍         | 4/94 [00:21<07:08,  4.76s/it]Validation DataLoader 0:   4%|▍         | 4/94 [00:21<07:08,  4.76s/it]Validation DataLoader 0:   5%|▌         | 5/94 [00:28<08:25,  5.68s/it]Validation DataLoader 0:   5%|▌         | 5/94 [00:28<08:25,  5.68s/it]Validation DataLoader 0:   6%|▋         | 6/94 [00:32<07:31,  5.13s/it]Validation DataLoader 0:   6%|▋         | 6/94 [00:32<07:31,  5.13s/it]Validation DataLoader 0:   7%|▋         | 7/94 [00:36<06:52,  4.74s/it]Validation DataLoader 0:   7%|▋         | 7/94 [00:36<06:52,  4.74s/it]Validation DataLoader 0:   9%|▊         | 8/94 [00:39<05:41,  3.97s/it]Validation DataLoader 0:   9%|▊         | 8/94 [00:39<05:41,  3.97s/it]Validation DataLoader 0:  10%|▉         | 9/94 [00:42<05:07,  3.61s/it]Validation DataLoader 0:  10%|▉         | 9/94 [00:42<05:07,  3.61s/it]Validation DataLoader 0:  11%|█         | 10/94 [01:00<11:36,  8.29s/it]Validation DataLoader 0:  11%|█         | 10/94 [01:00<11:36,  8.29s/it]Validation DataLoader 0:  12%|█▏        | 11/94 [01:04<09:26,  6.83s/it]Validation DataLoader 0:  12%|█▏        | 11/94 [01:04<09:26,  6.83s/it]Validation DataLoader 0:  13%|█▎        | 12/94 [01:08<08:03,  5.89s/it]Validation DataLoader 0:  13%|█▎        | 12/94 [01:08<08:03,  5.89s/it]Validation DataLoader 0:  14%|█▍        | 13/94 [01:15<08:36,  6.38s/it]Validation DataLoader 0:  14%|█▍        | 13/94 [01:15<08:36,  6.38s/it]Validation DataLoader 0:  15%|█▍        | 14/94 [01:21<08:06,  6.08s/it]Validation DataLoader 0:  15%|█▍        | 14/94 [01:21<08:06,  6.08s/it]Validation DataLoader 0:  16%|█▌        | 15/94 [01:27<08:09,  6.20s/it]Validation DataLoader 0:  16%|█▌        | 15/94 [01:27<08:09,  6.20s/it]Validation DataLoader 0:  17%|█▋        | 16/94 [01:39<10:13,  7.87s/it]Validation DataLoader 0:  17%|█▋        | 16/94 [01:39<10:13,  7.87s/it]Validation DataLoader 0:  18%|█▊        | 17/94 [01:47<10:08,  7.90s/it]Validation DataLoader 0:  18%|█▊        | 17/94 [01:47<10:08,  7.90s/it]Validation DataLoader 0:  19%|█▉        | 18/94 [01:53<09:30,  7.51s/it]Validation DataLoader 0:  19%|█▉        | 18/94 [01:53<09:30,  7.51s/it]Validation DataLoader 0:  20%|██        | 19/94 [01:57<07:54,  6.33s/it]Validation DataLoader 0:  20%|██        | 19/94 [01:57<07:54,  6.33s/it]Validation DataLoader 0:  21%|██▏       | 20/94 [02:09<09:49,  7.97s/it]Validation DataLoader 0:  21%|██▏       | 20/94 [02:09<09:49,  7.97s/it]Validation DataLoader 0:  22%|██▏       | 21/94 [02:22<11:42,  9.62s/it]Validation DataLoader 0:  22%|██▏       | 21/94 [02:22<11:42,  9.62s/it]Validation DataLoader 0:  23%|██▎       | 22/94 [02:31<11:09,  9.30s/it]Validation DataLoader 0:  23%|██▎       | 22/94 [02:31<11:09,  9.30s/it]Validation DataLoader 0:  24%|██▍       | 23/94 [02:43<12:00, 10.15s/it]Validation DataLoader 0:  24%|██▍       | 23/94 [02:43<12:00, 10.15s/it]Validation DataLoader 0:  26%|██▌       | 24/94 [02:49<10:19,  8.85s/it]Validation DataLoader 0:  26%|██▌       | 24/94 [02:49<10:19,  8.85s/it]Validation DataLoader 0:  27%|██▋       | 25/94 [02:54<08:58,  7.81s/it]Validation DataLoader 0:  27%|██▋       | 25/94 [02:54<08:58,  7.81s/it]Validation DataLoader 0:  28%|██▊       | 26/94 [02:58<07:39,  6.76s/it]Validation DataLoader 0:  28%|██▊       | 26/94 [02:58<07:39,  6.76s/it]Validation DataLoader 0:  29%|██▊       | 27/94 [03:07<08:11,  7.33s/it]Validation DataLoader 0:  29%|██▊       | 27/94 [03:07<08:11,  7.33s/it]Validation DataLoader 0:  30%|██▉       | 28/94 [03:14<07:51,  7.15s/it]Validation DataLoader 0:  30%|██▉       | 28/94 [03:14<07:51,  7.15s/it]Validation DataLoader 0:  31%|███       | 29/94 [03:16<06:00,  5.54s/it]Validation DataLoader 0:  31%|███       | 29/94 [03:16<06:00,  5.54s/it]Validation DataLoader 0:  32%|███▏      | 30/94 [03:22<06:14,  5.85s/it]Validation DataLoader 0:  32%|███▏      | 30/94 [03:22<06:14,  5.85s/it]Validation DataLoader 0:  33%|███▎      | 31/94 [03:28<06:09,  5.87s/it]Validation DataLoader 0:  33%|███▎      | 31/94 [03:28<06:09,  5.87s/it]Validation DataLoader 0:  34%|███▍      | 32/94 [03:37<06:54,  6.68s/it]Validation DataLoader 0:  34%|███▍      | 32/94 [03:37<06:54,  6.68s/it]Validation DataLoader 0:  35%|███▌      | 33/94 [03:40<05:49,  5.72s/it]Validation DataLoader 0:  35%|███▌      | 33/94 [03:40<05:49,  5.72s/it]Validation DataLoader 0:  36%|███▌      | 34/94 [03:53<07:58,  7.97s/it]Validation DataLoader 0:  36%|███▌      | 34/94 [03:53<07:58,  7.97s/it]Validation DataLoader 0:  37%|███▋      | 35/94 [03:56<06:20,  6.45s/it]Validation DataLoader 0:  37%|███▋      | 35/94 [03:56<06:20,  6.45s/it]Validation DataLoader 0:  38%|███▊      | 36/94 [04:01<05:53,  6.09s/it]Validation DataLoader 0:  38%|███▊      | 36/94 [04:01<05:53,  6.09s/it]Validation DataLoader 0:  39%|███▉      | 37/94 [04:06<05:23,  5.67s/it]Validation DataLoader 0:  39%|███▉      | 37/94 [04:06<05:23,  5.67s/it]Validation DataLoader 0:  40%|████      | 38/94 [04:11<05:10,  5.55s/it]Validation DataLoader 0:  40%|████      | 38/94 [04:11<05:10,  5.55s/it]Validation DataLoader 0:  41%|████▏     | 39/94 [04:20<06:01,  6.57s/it]Validation DataLoader 0:  41%|████▏     | 39/94 [04:20<06:01,  6.57s/it]Validation DataLoader 0:  43%|████▎     | 40/94 [04:29<06:33,  7.28s/it]Validation DataLoader 0:  43%|████▎     | 40/94 [04:29<06:33,  7.28s/it]Validation DataLoader 0:  44%|████▎     | 41/94 [04:45<08:47,  9.95s/it]Validation DataLoader 0:  44%|████▎     | 41/94 [04:45<08:47,  9.95s/it]Validation DataLoader 0:  45%|████▍     | 42/94 [04:48<06:43,  7.76s/it]Validation DataLoader 0:  45%|████▍     | 42/94 [04:48<06:43,  7.76s/it]Validation DataLoader 0:  46%|████▌     | 43/94 [04:56<06:43,  7.91s/it]Validation DataLoader 0:  46%|████▌     | 43/94 [04:56<06:43,  7.91s/it]Validation DataLoader 0:  47%|████▋     | 44/94 [05:18<09:55, 11.91s/it]Validation DataLoader 0:  47%|████▋     | 44/94 [05:18<09:55, 11.91s/it]Validation DataLoader 0:  48%|████▊     | 45/94 [05:31<10:08, 12.42s/it]Validation DataLoader 0:  48%|████▊     | 45/94 [05:31<10:08, 12.42s/it]Validation DataLoader 0:  49%|████▉     | 46/94 [05:43<09:49, 12.29s/it]Validation DataLoader 0:  49%|████▉     | 46/94 [05:43<09:49, 12.29s/it]Validation DataLoader 0:  50%|█████     | 47/94 [06:02<11:07, 14.20s/it]Validation DataLoader 0:  50%|█████     | 47/94 [06:02<11:07, 14.20s/it]Validation DataLoader 0:  51%|█████     | 48/94 [06:12<10:03, 13.12s/it]Validation DataLoader 0:  51%|█████     | 48/94 [06:12<10:03, 13.12s/it]Validation DataLoader 0:  52%|█████▏    | 49/94 [06:18<08:03, 10.75s/it]Validation DataLoader 0:  52%|█████▏    | 49/94 [06:18<08:03, 10.75s/it]Validation DataLoader 0:  53%|█████▎    | 50/94 [06:32<08:43, 11.91s/it]Validation DataLoader 0:  53%|█████▎    | 50/94 [06:32<08:43, 11.91s/it]Validation DataLoader 0:  54%|█████▍    | 51/94 [06:46<08:50, 12.34s/it]Validation DataLoader 0:  54%|█████▍    | 51/94 [06:46<08:50, 12.34s/it]Validation DataLoader 0:  55%|█████▌    | 52/94 [06:52<07:21, 10.52s/it]Validation DataLoader 0:  55%|█████▌    | 52/94 [06:52<07:21, 10.52s/it]Validation DataLoader 0:  56%|█████▋    | 53/94 [06:59<06:25,  9.41s/it]Validation DataLoader 0:  56%|█████▋    | 53/94 [06:59<06:25,  9.41s/it]Validation DataLoader 0:  57%|█████▋    | 54/94 [07:03<05:18,  7.97s/it]Validation DataLoader 0:  57%|█████▋    | 54/94 [07:03<05:18,  7.97s/it]Validation DataLoader 0:  59%|█████▊    | 55/94 [07:10<04:55,  7.56s/it]Validation DataLoader 0:  59%|█████▊    | 55/94 [07:10<04:55,  7.56s/it]Validation DataLoader 0:  60%|█████▉    | 56/94 [07:16<04:25,  6.98s/it]Validation DataLoader 0:  60%|█████▉    | 56/94 [07:16<04:25,  6.98s/it]Validation DataLoader 0:  61%|██████    | 57/94 [07:31<05:50,  9.48s/it]Validation DataLoader 0:  61%|██████    | 57/94 [07:31<05:50,  9.48s/it]Validation DataLoader 0:  62%|██████▏   | 58/94 [07:38<05:12,  8.68s/it]Validation DataLoader 0:  62%|██████▏   | 58/94 [07:38<05:12,  8.68s/it]Validation DataLoader 0:  63%|██████▎   | 59/94 [07:40<03:58,  6.80s/it]Validation DataLoader 0:  63%|██████▎   | 59/94 [07:40<03:58,  6.80s/it]Validation DataLoader 0:  64%|██████▍   | 60/94 [08:13<08:22, 14.77s/it]Validation DataLoader 0:  64%|██████▍   | 60/94 [08:13<08:22, 14.77s/it]Validation DataLoader 0:  65%|██████▍   | 61/94 [08:20<06:46, 12.31s/it]Validation DataLoader 0:  65%|██████▍   | 61/94 [08:20<06:46, 12.31s/it]Validation DataLoader 0:  66%|██████▌   | 62/94 [08:26<05:35, 10.48s/it]Validation DataLoader 0:  66%|██████▌   | 62/94 [08:26<05:35, 10.48s/it]Validation DataLoader 0:  67%|██████▋   | 63/94 [08:32<04:41,  9.08s/it]Validation DataLoader 0:  67%|██████▋   | 63/94 [08:32<04:41,  9.08s/it]Validation DataLoader 0:  68%|██████▊   | 64/94 [08:43<04:47,  9.58s/it]Validation DataLoader 0:  68%|██████▊   | 64/94 [08:43<04:47,  9.58s/it]Validation DataLoader 0:  69%|██████▉   | 65/94 [09:09<07:06, 14.70s/it]Validation DataLoader 0:  69%|██████▉   | 65/94 [09:09<07:06, 14.70s/it]Validation DataLoader 0:  70%|███████   | 66/94 [09:14<05:28, 11.74s/it]Validation DataLoader 0:  70%|███████   | 66/94 [09:14<05:28, 11.74s/it]Validation DataLoader 0:  71%|███████▏  | 67/94 [09:20<04:25,  9.83s/it]Validation DataLoader 0:  71%|███████▏  | 67/94 [09:20<04:25,  9.83s/it]Validation DataLoader 0:  72%|███████▏  | 68/94 [09:22<03:17,  7.61s/it]Validation DataLoader 0:  72%|███████▏  | 68/94 [09:22<03:17,  7.61s/it]Validation DataLoader 0:  73%|███████▎  | 69/94 [09:26<02:45,  6.60s/it]Validation DataLoader 0:  73%|███████▎  | 69/94 [09:26<02:45,  6.60s/it]Validation DataLoader 0:  74%|███████▍  | 70/94 [09:31<02:22,  5.94s/it]Validation DataLoader 0:  74%|███████▍  | 70/94 [09:31<02:22,  5.94s/it]Validation DataLoader 0:  76%|███████▌  | 71/94 [09:33<01:52,  4.89s/it]Validation DataLoader 0:  76%|███████▌  | 71/94 [09:33<01:52,  4.89s/it]Validation DataLoader 0:  77%|███████▋  | 72/94 [09:38<01:50,  5.01s/it]Validation DataLoader 0:  77%|███████▋  | 72/94 [09:38<01:50,  5.01s/it]Validation DataLoader 0:  78%|███████▊  | 73/94 [09:42<01:38,  4.67s/it]Validation DataLoader 0:  78%|███████▊  | 73/94 [09:42<01:38,  4.67s/it]Validation DataLoader 0:  79%|███████▊  | 74/94 [09:46<01:30,  4.51s/it]Validation DataLoader 0:  79%|███████▊  | 74/94 [09:46<01:30,  4.51s/it]Validation DataLoader 0:  80%|███████▉  | 75/94 [09:51<01:25,  4.49s/it]Validation DataLoader 0:  80%|███████▉  | 75/94 [09:51<01:25,  4.49s/it]Validation DataLoader 0:  81%|████████  | 76/94 [09:58<01:33,  5.22s/it]Validation DataLoader 0:  81%|████████  | 76/94 [09:58<01:33,  5.22s/it]Validation DataLoader 0:  82%|████████▏ | 77/94 [10:00<01:14,  4.39s/it]Validation DataLoader 0:  82%|████████▏ | 77/94 [10:00<01:14,  4.39s/it]Validation DataLoader 0:  83%|████████▎ | 78/94 [10:03<01:02,  3.91s/it]Validation DataLoader 0:  83%|████████▎ | 78/94 [10:03<01:02,  3.91s/it]Validation DataLoader 0:  84%|████████▍ | 79/94 [10:06<00:52,  3.53s/it]Validation DataLoader 0:  84%|████████▍ | 79/94 [10:06<00:52,  3.53s/it]Validation DataLoader 0:  85%|████████▌ | 80/94 [10:11<00:54,  3.92s/it]Validation DataLoader 0:  85%|████████▌ | 80/94 [10:11<00:54,  3.92s/it]Validation DataLoader 0:  86%|████████▌ | 81/94 [10:15<00:53,  4.15s/it]Validation DataLoader 0:  86%|████████▌ | 81/94 [10:15<00:53,  4.15s/it]Validation DataLoader 0:  87%|████████▋ | 82/94 [10:20<00:50,  4.25s/it]Validation DataLoader 0:  87%|████████▋ | 82/94 [10:20<00:50,  4.25s/it]Validation DataLoader 0:  88%|████████▊ | 83/94 [10:24<00:47,  4.34s/it]Validation DataLoader 0:  88%|████████▊ | 83/94 [10:24<00:47,  4.34s/it]Validation DataLoader 0:  89%|████████▉ | 84/94 [10:27<00:38,  3.87s/it]Validation DataLoader 0:  89%|████████▉ | 84/94 [10:27<00:38,  3.87s/it]Validation DataLoader 0:  90%|█████████ | 85/94 [10:30<00:33,  3.73s/it]Validation DataLoader 0:  90%|█████████ | 85/94 [10:30<00:33,  3.73s/it]Validation DataLoader 0:  91%|█████████▏| 86/94 [10:38<00:38,  4.80s/it]Validation DataLoader 0:  91%|█████████▏| 86/94 [10:38<00:38,  4.80s/it]Validation DataLoader 0:  93%|█████████▎| 87/94 [10:45<00:38,  5.54s/it]Validation DataLoader 0:  93%|█████████▎| 87/94 [10:45<00:38,  5.54s/it]Validation DataLoader 0:  94%|█████████▎| 88/94 [10:47<00:26,  4.46s/it]Validation DataLoader 0:  94%|█████████▎| 88/94 [10:47<00:26,  4.46s/it]Validation DataLoader 0:  95%|█████████▍| 89/94 [10:51<00:22,  4.47s/it]Validation DataLoader 0:  95%|█████████▍| 89/94 [10:51<00:22,  4.47s/it]Validation DataLoader 0:  96%|█████████▌| 90/94 [10:54<00:15,  3.99s/it]Validation DataLoader 0:  96%|█████████▌| 90/94 [10:54<00:15,  3.99s/it]Validation DataLoader 0:  97%|█████████▋| 91/94 [10:58<00:11,  3.82s/it]Validation DataLoader 0:  97%|█████████▋| 91/94 [10:58<00:11,  3.82s/it]Validation DataLoader 0:  98%|█████████▊| 92/94 [11:01<00:07,  3.72s/it]Validation DataLoader 0:  98%|█████████▊| 92/94 [11:01<00:07,  3.72s/it]Validation DataLoader 0:  99%|█████████▉| 93/94 [11:08<00:04,  4.66s/it]Validation DataLoader 0:  99%|█████████▉| 93/94 [11:08<00:04,  4.66s/it]Validation DataLoader 0: 100%|██████████| 94/94 [11:10<00:00,  3.74s/it]Validation DataLoader 0: 100%|██████████| 94/94 [11:10<00:00,  3.74s/it]Validation results saved to /scratch/gpfs/lm2472/NLProofS/prover/lightning_logs/version_56157666/results_val.json and /scratch/gpfs/lm2472/NLProofS/prover/lightning_logs/version_56157666/results_val.tsv
+Performance by depth:
+51 trees have depth 1
+	leaves: 0.9411764705882353	0.9867413632119516
+	steps: 0.8823529411764706	0.8823529411764706
+	proof: 0.8823529411764706	0.8823529411764706
+64 trees have depth 2
+	leaves: 0.515625	0.8975401334776335
+	steps: 0.359375	0.4576264880952381
+	proof: 0.359375	0.359375
+28 trees have depth 3
+	leaves: 0.4642857142857143	0.9049351442208585
+	steps: 0.17857142857142858	0.37063492063492065
+	proof: 0.17857142857142858	0.17857142857142858
+18 trees have depth 4
+	leaves: 0.5	0.8666806958473625
+	steps: 0.16666666666666666	0.37205788039121374
+	proof: 0.16666666666666666	0.16666666666666666
+13 trees have depth 5
+	leaves: 0.07692307692307693	0.7744368376721318
+	steps: 0.0	0.1962494770187078
+	proof: 0.0	0.0
+7 trees have depth 6
+	leaves: 0.0	0.6529850266692373
+	steps: 0.0	0.15220041396511985
+	proof: 0.0	0.0
+6 trees have depth 7
+	leaves: 0.16666666666666666	0.7782558021688456
+	steps: 0.0	0.15571895424836601
+	proof: 0.0	0.0
+Performance by size:
+41 trees have size 3
+	leaves: 0.9512195121951219	0.9869918699186992
+	steps: 0.9512195121951219	0.9512195121951219
+	proof: 0.9512195121951219	0.9512195121951219
+10 trees have size 4
+	leaves: 0.9	0.9857142857142858
+	steps: 0.6	0.6
+	proof: 0.6	0.6
+37 trees have size 5
+	leaves: 0.5405405405405406	0.8945360945360947
+	steps: 0.43243243243243246	0.5018018018018018
+	proof: 0.43243243243243246	0.43243243243243246
+13 trees have size 6
+	leaves: 0.46153846153846156	0.8884615384615385
+	steps: 0.3076923076923077	0.4384615384615384
+	proof: 0.3076923076923077	0.3076923076923077
+26 trees have size 7
+	leaves: 0.6153846153846154	0.9355921855921855
+	steps: 0.3076923076923077	0.4476190476190475
+	proof: 0.3076923076923077	0.3076923076923077
+5 trees have size 8
+	leaves: 0.4	0.8779220779220779
+	steps: 0.0	0.19666666666666668
+	proof: 0.0	0.0
+10 trees have size 9
+	leaves: 0.4	0.8984343434343434
+	steps: 0.1	0.3956349206349207
+	proof: 0.1	0.1
+2 trees have size 10
+	leaves: 0.0	0.8545454545454546
+	steps: 0.0	0.5714285714285715
+	proof: 0.0	0.0
+14 trees have size 11
+	leaves: 0.2857142857142857	0.8071234321234321
+	steps: 0.07142857142857142	0.2200113378684807
+	proof: 0.07142857142857142	0.07142857142857142
+1 trees have size 12
+	leaves: 1.0	1.0
+	steps: 1.0	1.0
+	proof: 1.0	1.0
+4 trees have size 13
+	leaves: 0.5	0.8961038961038961
+	steps: 0.0	0.21328671328671328
+	proof: 0.0	0.0
+1 trees have size 15
+	leaves: 0.0	0.4
+	steps: 0.0	0.25
+	proof: 0.0	0.0
+2 trees have size 16
+	leaves: 0.0	0.7809523809523811
+	steps: 0.0	0.18803418803418803
+	proof: 0.0	0.0
+6 trees have size 17
+	leaves: 0.0	0.6541947818263608
+	steps: 0.0	0.15169090169090169
+	proof: 0.0	0.0
+2 trees have size 18
+	leaves: 0.0	0.8375000000000001
+	steps: 0.0	0.26515151515151514
+	proof: 0.0	0.0
+3 trees have size 19
+	leaves: 0.0	0.7445533769063181
+	steps: 0.0	0.16732026143790849
+	proof: 0.0	0.0
+1 trees have size 20
+	leaves: 0.0	0.8571428571428571
+	steps: 0.0	0.16666666666666666
+	proof: 0.0	0.0
+3 trees have size 21
+	leaves: 0.0	0.7722222222222221
+	steps: 0.0	0.08366013071895424
+	proof: 0.0	0.0
+3 trees have size 23
+	leaves: 0.6666666666666666	0.9393939393939394
+	steps: 0.0	0.23571428571428568
+	proof: 0.0	0.0
+2 trees have size 27
+	leaves: 0.0	0.6761363636363636
+	steps: 0.0	0.05
+	proof: 0.0	0.0
+1 trees have size 31
+	leaves: 0.0	0.608695652173913
+	steps: 0.0	0.2
+	proof: 0.0	0.0
+Validation DataLoader 0: 100%|██████████| 94/94 [11:10<00:00,  7.13s/it]
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+     Validate metric           DataLoader 0
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ExactMatch_leaves_val     0.5614973262032086
+  ExactMatch_proof_val      0.40641711229946526
+  ExactMatch_steps_val      0.40641711229946526
+      F1_leaves_val         0.8984648316537437
+      F1_proof_val          0.40641711229946526
+      F1_steps_val          0.5129084207882573
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Configuration: 
+ Namespace(config=None, subcommand='validate', validate=Namespace(config=[Path_fsr(cli_task2_stepwise_t5-large.yaml, cwd=/scratch/gpfs/lm2472/NLProofS/prover)], seed_everything=1, trainer=Namespace(logger=True, checkpoint_callback=None, enable_checkpointing=True, callbacks=[Namespace(class_path='pytorch_lightning.callbacks.LearningRateMonitor', init_args=Namespace(logging_interval='step', log_momentum=False))], default_root_dir=None, gradient_clip_val=0.5, gradient_clip_algorithm=None, process_position=0, num_nodes=1, num_processes=None, devices=None, gpus=1, auto_select_gpus=False, tpu_cores=None, ipus=None, log_gpu_memory=None, progress_bar_refresh_rate=None, enable_progress_bar=True, overfit_batches=0.0, track_grad_norm=-1, check_val_every_n_epoch=10, fast_dev_run=False, accumulate_grad_batches=32, max_epochs=600, min_epochs=None, max_steps=-1, min_steps=None, max_time=None, limit_train_batches=None, limit_val_batches=None, limit_test_batches=None, limit_predict_batches=None, val_check_interval=None, flush_logs_every_n_steps=None, log_every_n_steps=5, accelerator=None, strategy=None, sync_batchnorm=False, precision=32, enable_model_summary=True, weights_summary='top', weights_save_path=None, num_sanity_val_steps=2, resume_from_checkpoint=None, profiler=None, benchmark=None, deterministic=False, reload_dataloaders_every_n_epochs=0, auto_lr_find=False, replace_sampler_ddp=True, detect_anomaly=False, auto_scale_batch_size=False, prepare_data_per_node=None, plugins=None, amp_backend='native', amp_level=None, move_metrics_to_cpu=False, multiple_trainloader_mode='max_size_cycle', stochastic_weight_avg=False, terminate_on_nan=None), model=Namespace(stepwise=True, max_num_steps=20, model_name='t5-large', lr=5e-05, warmup_steps=1000, num_beams=10, topk=10, proof_search=True, verifier_weight=0.5, greedy_search=False, diverse_beam_search=True, num_beam_groups=10, diversity_penalty=7.0, verifier_ckpt='../models/verifier-bank-task2.ckpt', oracle_prover=False, oracle_verifier=False, dataset='entailmentbank', max_input_len=1024), data=Namespace(dataset='entailmentbank', sample_goal='intermediates', max_input_len=1024, max_output_len=64, batch_size=2, num_workers=2, path_train='../data/entailment_trees_emnlp2021_data_v3/dataset/task_2/train.jsonl', path_val='../data/entailment_trees_emnlp2021_data_v3/dataset/task_2/dev.jsonl', path_test='../data/entailment_trees_emnlp2021_data_v3/dataset/task_2/test.jsonl', subtree_proved_prob=0.75, subtree_proved_all_or_none=False, model_name='t5-large', stepwise=True), ckpt_path='../models/prover-bank-task2.ckpt', verbose=True))
+e))

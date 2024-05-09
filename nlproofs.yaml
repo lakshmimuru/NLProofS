@@ -1,14 +1,13 @@
 name: nlproofs
 channels:
-  - conda-forge
   - pytorch
   - huggingface
   - etetoolkit
+  - conda-forge
   - defaults
 dependencies:
   - python=3.9
   - cudatoolkit=11.1
-  - tokenizers=0.13.02
   - pytorch=1.11.0
   - black
   - torchmetrics
